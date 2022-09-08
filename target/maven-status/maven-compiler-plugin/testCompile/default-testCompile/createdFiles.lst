@@ -1,0 +1,5 @@
+DeleteUsersTests.class
+UpdateUserTests_PUT.class
+UpdateUserTests_PATCH.class
+GetUserTests.class
+CreateUserTests.class

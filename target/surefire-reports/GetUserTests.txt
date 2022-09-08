@@ -1,0 +1,57 @@
+-------------------------------------------------------------------------------
+Test set: GetUserTests
+-------------------------------------------------------------------------------
+Tests run: 18, Failures: 7, Errors: 0, Skipped: 0, Time elapsed: 6.038 s <<< FAILURE! - in GetUserTests
+Create_User_Without_Status  Time elapsed: 0.241 s
+Create_User_With_Status{String}[1]  Time elapsed: 0.01 s
+Get_User_Data_With_Non_Existing_Email  Time elapsed: 0.054 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <204> but was <404>.
+
+	at GetUserTests.Delete_Created_User(GetUserTests.java:42)
+
+Create_User_Without_AnyInformation  Time elapsed: 0.002 s
+Create_User_With_Status{String}[2]  Time elapsed: 0.342 s
+Create_User_With_Status{String}[3]  Time elapsed: 0.046 s
+Create_User_With_InvalidEmails{String}[1]  Time elapsed: 0.078 s
+Create_User_With_InvalidNames{String}[2]  Time elapsed: 0.047 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: not equal but was: <201>
+	at CreateUserTests.Create_User_With_InvalidNames(CreateUserTests.java:122)
+
+Create_User_With_Gender{String}[1]  Time elapsed: 0.324 s
+Create_User_With_InvalidEmails{String}[3]  Time elapsed: 0.01 s
+Create_User_With_Gender{String}[2]  Time elapsed: 0.067 s
+Create_User_With_InvalidNames{String}[3]  Time elapsed: 0.109 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: not equal but was: <201>
+	at CreateUserTests.Create_User_With_InvalidNames(CreateUserTests.java:122)
+
+Get_User_Data_With_Non_Existing_ID  Time elapsed: 0.129 s
+Get_User_Data_With_Email_Successfully  Time elapsed: 0.144 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+JSON path data[0].id doesn't match.
+Expected: <4160>
+  Actual: <4158>
+
+	at GetUserTests.Get_User_Data_With_Email_Successfully(GetUserTests.java:87)
+
+Get_User_Data_With_Non_Existing_Name  Time elapsed: 0.363 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <204> but was <404>.
+
+	at GetUserTests.Delete_Created_User(GetUserTests.java:42)
+
+Create_User_With_Gender{String}[3]  Time elapsed: 0.38 s
+Create_User_With_InvalidEmails{String}[2]  Time elapsed: 0.386 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <is invalid> but was: <has already been taken>
+	at CreateUserTests.Create_User_With_InvalidEmails(CreateUserTests.java:138)
+
+Get_User_Data_With_Name_Successfully  Time elapsed: 0.505 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <204> but was <404>.
+
+	at GetUserTests.Delete_Created_User(GetUserTests.java:42)
+

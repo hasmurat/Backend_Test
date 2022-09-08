@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="DeleteUsersTests" time="4.342" tests="11" errors="0" skipped="0" failures="2">
+  <properties>
+    <property name="java.specification.version" value="18"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1254"/>
+    <property name="java.class.path" value="C:\Users\Dell\IdeaProjects\InterviewBackendTest\target\test-classes;C:\Users\Dell\IdeaProjects\InterviewBackendTest\target\classes;C:\Users\Dell\.m2\repository\io\rest-assured\rest-assured\5.1.1\rest-assured-5.1.1.jar;C:\Users\Dell\.m2\repository\org\apache\groovy\groovy\4.0.1\groovy-4.0.1.jar;C:\Users\Dell\.m2\repository\org\apache\groovy\groovy-xml\4.0.1\groovy-xml-4.0.1.jar;C:\Users\Dell\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\Dell\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\Dell\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Dell\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\Dell\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\Dell\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\Dell\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Dell\.m2\repository\io\rest-assured\xml-path\5.1.1\xml-path-5.1.1.jar;C:\Users\Dell\.m2\repository\io\rest-assured\json-path\5.1.1\json-path-5.1.1.jar;C:\Users\Dell\.m2\repository\org\apache\groovy\groovy-json\4.0.1\groovy-json-4.0.1.jar;C:\Users\Dell\.m2\repository\io\rest-assured\rest-assured-common\5.1.1\rest-assured-common-5.1.1.jar;C:\Users\Dell\.m2\repository\io\rest-assured\json-schema-validator\5.1.1\json-schema-validator-5.1.1.jar;C:\Users\Dell\.m2\repository\com\github\java-json-tools\json-schema-validator\2.2.14\json-schema-validator-2.2.14.jar;C:\Users\Dell\.m2\repository\com\google\guava\guava\28.2-android\guava-28.2-android.jar;C:\Users\Dell\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\Dell\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Dell\.m2\repository\org\checkerframework\checker-compat-qual\2.5.5\checker-compat-qual-2.5.5.jar;C:\Users\Dell\.m2\repository\com\google\errorprone\error_prone_annotations\2.3.4\error_prone_annotations-2.3.4.jar;C:\Users\Dell\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\Dell\.m2\repository\com\github\java-json-tools\jackson-coreutils-equivalence\1.0\jackson-coreutils-equivalence-1.0.jar;C:\Users\Dell\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.11.0\jackson-databind-2.11.0.jar;C:\Users\Dell\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.11.0\jackson-annotations-2.11.0.jar;C:\Users\Dell\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.11.0\jackson-core-2.11.0.jar;C:\Users\Dell\.m2\repository\com\github\java-json-tools\jackson-coreutils\2.0\jackson-coreutils-2.0.jar;C:\Users\Dell\.m2\repository\com\github\java-json-tools\msg-simple\1.2\msg-simple-1.2.jar;C:\Users\Dell\.m2\repository\com\github\java-json-tools\btf\1.3\btf-1.3.jar;C:\Users\Dell\.m2\repository\com\github\java-json-tools\json-schema-core\1.2.14\json-schema-core-1.2.14.jar;C:\Users\Dell\.m2\repository\com\github\java-json-tools\uri-template\0.10\uri-template-0.10.jar;C:\Users\Dell\.m2\repository\org\mozilla\rhino\1.7.7.2\rhino-1.7.7.2.jar;C:\Users\Dell\.m2\repository\com\sun\mail\mailapi\1.6.2\mailapi-1.6.2.jar;C:\Users\Dell\.m2\repository\joda-time\joda-time\2.10.5\joda-time-2.10.5.jar;C:\Users\Dell\.m2\repository\com\googlecode\libphonenumber\libphonenumber\8.11.1\libphonenumber-8.11.1.jar;C:\Users\Dell\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Dell\.m2\repository\net\sf\jopt-simple\jopt-simple\5.0.4\jopt-simple-5.0.4.jar;C:\Users\Dell\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.0\junit-jupiter-api-5.9.0.jar;C:\Users\Dell\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Dell\.m2\repository\org\junit\platform\junit-platform-commons\1.9.0\junit-platform-commons-1.9.0.jar;C:\Users\Dell\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Dell\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.9.0\junit-jupiter-params-5.9.0.jar;C:\Users\Dell\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.0\junit-jupiter-engine-5.9.0.jar;C:\Users\Dell\.m2\repository\org\junit\platform\junit-platform-engine\1.9.0\junit-platform-engine-1.9.0.jar;C:\Users\Dell\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\Dell\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\Dell\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\Dell\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\Dell\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/Istanbul"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="18"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Users\Dell\.jdks\openjdk-18.0.2.1\bin"/>
+    <property name="sun.java.command" value="C:\Users\Dell\AppData\Local\Temp\surefire16022533557101787975\surefirebooter12490116809696371206.jar C:\Users\Dell\AppData\Local\Temp\surefire16022533557101787975 2022-09-08T14-12-42_561-jvmRun1 surefire14839614800104423382tmp surefire_02988499451052745431tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\Dell\IdeaProjects\InterviewBackendTest\target\test-classes;C:\Users\Dell\IdeaProjects\InterviewBackendTest\target\classes;C:\Users\Dell\.m2\repository\io\rest-assured\rest-assured\5.1.1\rest-assured-5.1.1.jar;C:\Users\Dell\.m2\repository\org\apache\groovy\groovy\4.0.1\groovy-4.0.1.jar;C:\Users\Dell\.m2\repository\org\apache\groovy\groovy-xml\4.0.1\groovy-xml-4.0.1.jar;C:\Users\Dell\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\Dell\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\Dell\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Dell\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\Dell\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\Dell\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\Dell\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Dell\.m2\repository\io\rest-assured\xml-path\5.1.1\xml-path-5.1.1.jar;C:\Users\Dell\.m2\repository\io\rest-assured\json-path\5.1.1\json-path-5.1.1.jar;C:\Users\Dell\.m2\repository\org\apache\groovy\groovy-json\4.0.1\groovy-json-4.0.1.jar;C:\Users\Dell\.m2\repository\io\rest-assured\rest-assured-common\5.1.1\rest-assured-common-5.1.1.jar;C:\Users\Dell\.m2\repository\io\rest-assured\json-schema-validator\5.1.1\json-schema-validator-5.1.1.jar;C:\Users\Dell\.m2\repository\com\github\java-json-tools\json-schema-validator\2.2.14\json-schema-validator-2.2.14.jar;C:\Users\Dell\.m2\repository\com\google\guava\guava\28.2-android\guava-28.2-android.jar;C:\Users\Dell\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\Dell\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Dell\.m2\repository\org\checkerframework\checker-compat-qual\2.5.5\checker-compat-qual-2.5.5.jar;C:\Users\Dell\.m2\repository\com\google\errorprone\error_prone_annotations\2.3.4\error_prone_annotations-2.3.4.jar;C:\Users\Dell\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\Dell\.m2\repository\com\github\java-json-tools\jackson-coreutils-equivalence\1.0\jackson-coreutils-equivalence-1.0.jar;C:\Users\Dell\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.11.0\jackson-databind-2.11.0.jar;C:\Users\Dell\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.11.0\jackson-annotations-2.11.0.jar;C:\Users\Dell\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.11.0\jackson-core-2.11.0.jar;C:\Users\Dell\.m2\repository\com\github\java-json-tools\jackson-coreutils\2.0\jackson-coreutils-2.0.jar;C:\Users\Dell\.m2\repository\com\github\java-json-tools\msg-simple\1.2\msg-simple-1.2.jar;C:\Users\Dell\.m2\repository\com\github\java-json-tools\btf\1.3\btf-1.3.jar;C:\Users\Dell\.m2\repository\com\github\java-json-tools\json-schema-core\1.2.14\json-schema-core-1.2.14.jar;C:\Users\Dell\.m2\repository\com\github\java-json-tools\uri-template\0.10\uri-template-0.10.jar;C:\Users\Dell\.m2\repository\org\mozilla\rhino\1.7.7.2\rhino-1.7.7.2.jar;C:\Users\Dell\.m2\repository\com\sun\mail\mailapi\1.6.2\mailapi-1.6.2.jar;C:\Users\Dell\.m2\repository\joda-time\joda-time\2.10.5\joda-time-2.10.5.jar;C:\Users\Dell\.m2\repository\com\googlecode\libphonenumber\libphonenumber\8.11.1\libphonenumber-8.11.1.jar;C:\Users\Dell\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Dell\.m2\repository\net\sf\jopt-simple\jopt-simple\5.0.4\jopt-simple-5.0.4.jar;C:\Users\Dell\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.0\junit-jupiter-api-5.9.0.jar;C:\Users\Dell\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Dell\.m2\repository\org\junit\platform\junit-platform-commons\1.9.0\junit-platform-commons-1.9.0.jar;C:\Users\Dell\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Dell\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.9.0\junit-jupiter-params-5.9.0.jar;C:\Users\Dell\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.0\junit-jupiter-engine-5.9.0.jar;C:\Users\Dell\.m2\repository\org\junit\platform\junit-platform-engine\1.9.0\junit-platform-engine-1.9.0.jar;C:\Users\Dell\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\Dell\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\Dell\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\Dell\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\Dell\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Dell"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-08-18"/>
+    <property name="java.home" value="C:\Users\Dell\.jdks\openjdk-18.0.2.1"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\Dell\IdeaProjects\InterviewBackendTest"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\Dell\AppData\Local\Temp\surefire16022533557101787975\surefirebooter12490116809696371206.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="18.0.2.1+1-1"/>
+    <property name="user.name" value="Dell"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Dell\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\Dell\AppData\Local\Temp\"/>
+    <property name="idea.version" value="2022.1.4"/>
+    <property name="java.version" value="18.0.2.1"/>
+    <property name="user.dir" value="C:\Users\Dell\IdeaProjects\InterviewBackendTest"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1254"/>
+    <property name="java.library.path" value="C:\Users\Dell\.jdks\openjdk-18.0.2.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Python310\Scripts\;C:\Python310\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_231\bin;C:\apache-maven-3.8.3\bin;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\Git\cmd;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\dotnet\;C:\Program Files (x86)\dotnet\;C:\Users\Dell\AppData\Local\Microsoft\WindowsApps;C:\Users\Dell\AppData\Local\GitHubDesktop\bin;C:\Users\Dell\AppData\Local\atom\bin;C:\Users\Dell\AppData\Roaming\npm;C:\Users\Dell\AppData\Local\Programs\Microsoft VS Code\bin;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="18.0.2.1+1-1"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="62.0"/>
+  </properties>
+  <testcase name="Create_User_Without_Authentication" classname="CreateUserTests" time="2.163"/>
+  <testcase name="Create_User_Without_Name" classname="CreateUserTests" time="0.006"/>
+  <testcase name="Users_CreateUsers_Success" classname="CreateUserTests" time="0.092"/>
+  <testcase name="Create_User_With_TakenEmail" classname="CreateUserTests" time="0.287"/>
+  <testcase name="Delete_Created_User_With_Non_Existing_ID" classname="DeleteUsersTests" time="0.076"/>
+  <testcase name="Create_User_Without_Email" classname="CreateUserTests" time="0.461"/>
+  <testcase name="Delete_Created_User_Without_Authentication" classname="DeleteUsersTests" time="0.462">
+    <failure message="1 expectation failed.&#10;Expected status code &lt;401&gt; but was &lt;404&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <401> but was <404>.
+
+	at DeleteUsersTests.Delete_Created_User_Without_Authentication(DeleteUsersTests.java:63)
+]]></failure>
+  </testcase>
+  <testcase name="Get_All_Users_Data_Successfully" classname="GetUserTests" time="0.043"/>
+  <testcase name="Get_User_Data_With_ID_Successfully" classname="GetUserTests" time="0.057">
+    <failure message="1 expectation failed.&#10;JSON path data[0].name doesn&apos;t match.&#10;Expected: Russel Ziemann IV&#10;  Actual: Hugo Reichel&#10;" type="java.lang.AssertionError">java.lang.AssertionError: 
+1 expectation failed.
+JSON path data[0].name doesn't match.
+Expected: Russel Ziemann IV
+  Actual: Hugo Reichel
+
+	at GetUserTests.Get_User_Data_With_ID_Successfully(GetUserTests.java:60)
+</failure>
+  </testcase>
+  <testcase name="Create_User_Without_Gender" classname="CreateUserTests" time="0.003"/>
+  <testcase name="Delete_Created_User" classname="DeleteUsersTests" time="0.01"/>
+</testsuite>

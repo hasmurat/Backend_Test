@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: CreateUserTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 6.351 s <<< FAILURE! - in CreateUserTests
+Create_User_With_InvalidNames{String}[1]  Time elapsed: 0.819 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: not equal but was: <201>
+	at CreateUserTests.Create_User_With_InvalidNames(CreateUserTests.java:122)
+

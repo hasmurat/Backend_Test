@@ -1,0 +1,6 @@
+models\UpdateUserModel.class
+services\BaseService.class
+models\CreateUserModel.class
+utilities\CreateRandomInfo.class
+services\GoRestService.class
+models\GetUserModel.class

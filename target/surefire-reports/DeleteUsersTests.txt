@@ -1,0 +1,29 @@
+-------------------------------------------------------------------------------
+Test set: DeleteUsersTests
+-------------------------------------------------------------------------------
+Tests run: 11, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 4.342 s <<< FAILURE! - in DeleteUsersTests
+Create_User_Without_Authentication  Time elapsed: 2.163 s
+Create_User_Without_Name  Time elapsed: 0.006 s
+Users_CreateUsers_Success  Time elapsed: 0.092 s
+Create_User_With_TakenEmail  Time elapsed: 0.287 s
+Delete_Created_User_With_Non_Existing_ID  Time elapsed: 0.076 s
+Create_User_Without_Email  Time elapsed: 0.461 s
+Delete_Created_User_Without_Authentication  Time elapsed: 0.462 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <401> but was <404>.
+
+	at DeleteUsersTests.Delete_Created_User_Without_Authentication(DeleteUsersTests.java:63)
+
+Get_All_Users_Data_Successfully  Time elapsed: 0.043 s
+Get_User_Data_With_ID_Successfully  Time elapsed: 0.057 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+JSON path data[0].name doesn't match.
+Expected: Russel Ziemann IV
+  Actual: Hugo Reichel
+
+	at GetUserTests.Get_User_Data_With_ID_Successfully(GetUserTests.java:60)
+
+Create_User_Without_Gender  Time elapsed: 0.003 s
+Delete_Created_User  Time elapsed: 0.01 s
