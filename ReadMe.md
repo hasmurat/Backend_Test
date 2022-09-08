@@ -1,4 +1,4 @@
-# QA Engineer test
+# QA Engineer Test
 - This framework is about Backend Automation Testing
 - I started my work by analyzing API document
 - Then I created my scenarios, and I executed them manually on Postman
